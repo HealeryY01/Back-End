@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sidebar {
+    width: 100%;
+    background-color: #f1cfb3;
+}
+div#header-wp {
+    width: 100%;
+    min-height: 65px;
+}
+
+a#logo {
+    float: left;
+    margin-left: 120px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+a#btn-cart {
+    float: right;
+    margin-right: 120px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+div#main-menu-wp {
+    padding: 15px;
+}
+
+ul.list-main {
+    list-style-type: none;
+    line-height: 25px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+
+}
+li.active a {
+    color: red;
+}
+ul.list-main li a{
+    font-size: 20px;
+    font-weight: bold;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+#main-menu-wp list-main a{
+    font-size: 20px;
+
+}
+
+a.section-title {
+    text-decoration: none;
+    color: #1377f5;
+    font-size: 18px;
+    font-weight: bold;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+p#copyright {
+    text-align: center;
+}
+
+.section.list-cat {
+    margin: 20px 20px;
+}
+ul.list-item.clearfix {
+    list-style-type: none;
+    line-height: 27px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+p#copyright {
+    margin-top: 20px;
+    display: block;
+    line-height: 25px;
+    min-height: 25px;
+    text-align: center;
+    background-color: #ddd;
+    color: red;
+}
+div#content {
+    margin: 20px;
+    line-height: 25px;
+}
+
+.section.list-cart {
+    width: 90px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    background: #c3c2c2;
+}
+.section-head {
+    font-size: 18px;
+    line-height: 25px;
+}
+h3.section-title {
+    color: #186bd5;
+}
+a.add-to-cart {
+    display: inline-block;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    text-align: center;
+}
+
+div#info-product-wp {
+    position: relative;
+}
+div.detail.fl-right {
+    position: absolute;
+    left: 320px;
+    bottom: 125px;
+}
+h3.title {
+    color: #186bd5;
+}
+a.thumb_cart img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    margin-top: 15px; 
+}
+table.table {
+    line-height: 60px;
+    width: 98%;
+    height: 100%;
+    margin: 10px 20px;
+    border: 1px solid black;
+}
+.section-detail h3.title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+thead {
+    font-size: 18px;
+    font-weight: bold;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+p#total-price {
+    float: right;
+    margin-right: 70px;
+    font-weight: bold;
+}
+p#total-price span {
+    color: red;
+}
+
+.right {
+    float: right;
+    margin-right: 20px;
+    display: inline-block;
+}
+input#update-cart {
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    background: #ddd;
+    color: black;
+    border-radius: 5px;
+}
+a#checkout-cart {
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+    display: inline-block;
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    background: #ddd;
+    color: black;
+    border-radius: 5px;
+
+}
+p.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+div#action-cart-wp {
+    text-align: center;
+}
+a#buy-more {
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    border: 1px solid black;
+    background: #ddd;
+    width: 80px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+}
+a#delete {
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    border: 1px solid black;
+    background: #ddd;
+    width: 110px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+}
+a.name-product {
+    text-decoration: none;
+}
+.table tbody{
+    border-bottom: 1px solid #ddd;
+}
+input.num-order {
+    width: 30px;
+    border: none;
+    text-align: center;
+}
+span#num {
+    color: red;
+    font-size: 15px;
+}
+div#cart_empty {
+    min-height: 500px;
+    text-align: center;
+}
