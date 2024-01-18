@@ -3,14 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/modules/users/delete.php</file>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/db/connect.php</file>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/db/database.php</file>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/modules/users/update.php</file>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/modules/users/add.php</file>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/index.php</file>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/db/config.php</file>
-            <file>file:/D:/Xampp/htdocs/Healer/Back-End/Lesson/section-21/php_mysql/modules/users/main.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/modules/cart/show.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/public/js/app.js</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/inc/header.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/modules/cart/update_ajax.php</file>
         </group>
     </open-files>
 </project-private>

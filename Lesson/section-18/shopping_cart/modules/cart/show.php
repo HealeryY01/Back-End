@@ -47,9 +47,9 @@ $list_buy = get_list_buy_cart();
                                         </td>
                                         <td><?php echo currency_format($item['price']); ?></td>
                                         <td>
-                                            <input type="number" min='1' max='10' name="qty[<?php echo $item['id']; ?>]" value="<?php echo $item['qty']; ?>" class="num-order">
+                                            <input type="number" min='1' data-id="<?php echo $item['id'] ?>" max="10" name="qty[<?php echo $item['id']; ?>]" value="<?php echo $item['qty']; ?>" class="num-order">
                                         </td>
-                                        <td><?php echo currency_format($item['sub_total']); ?></td>
+                                        <td id="sub-total-<?php echo $item['id'] ?>"><?php echo currency_format($item['sub_total']); ?></td>
                                         <td>
                                             <a href="<?php echo $item['url_delete_cart']; ?>" title="Xóa sản phẩm" class="del-product"><i class="fa-regular fa-trash-can"></i></a>
                                         </td>
