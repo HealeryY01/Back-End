@@ -1,5 +1,4 @@
 <?php
-
 function db_connect() {
     global $conn;
     $db = func_get_arg(0);
@@ -7,9 +6,7 @@ function db_connect() {
     if (!$conn) {
         die("Kết nối không thành công" . mysqli_connect_error());
     }
-//    else{
-//        echo"Connect thành công"; 
-//    }
+    mysqli_set_charset($conn, "utf8");
 }
 
 function db_query($query_string) {
