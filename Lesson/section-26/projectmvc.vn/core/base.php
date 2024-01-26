@@ -1,6 +1,6 @@
 <?php
 
-define('APPPATH') OR exit('Không được quyền truy cập phần này');
+defined('APPPATH') OR exit('Không được quyền truy cập phần này');
 
 //get Controller name
 function get_controller() {
@@ -24,20 +24,18 @@ function get_action() {
 }
 
 function load($type, $name) {
-    if ($type == 'lib') {
+    if ($type == 'lib')
         $path = LIBPATH . DIRECTORY_SEPARATOR . "{$name}.php";
-    }
-    if ($type == 'hepler') {
+    if ($type == 'hepler')
         $path = HELPERPATH . DIRECTORY_SEPARATOR . "{$name}.php";
-    }
     if (file_exists($path)) {
-        return "$path";
+        require "$path";
     } else {
         echo "{$type}:{$name} không tồn tại";
     }
 }
 
-function call_function($list_function) {
+function call_function($list_function = array()) {
     if (is_array($list_function)) {
         foreach ($list_function as $f) {
             if (function_exists($f())) {
@@ -66,48 +64,48 @@ function load_view($name, $data_send = array()) {
 function load_model($name) {
     $path = MODULESPATH . DIRECTORY_SEPARATOR . get_module() . DIRECTORY_SEPARATOR . 'models' . DIRECTORY_SEPARATOR . get_controller() . 'Controller.php';
     if (file_exists($path)) {
-       require $path;
+        require $path;
     } else {
         echo "Không tìm thấy {$path}";
     }
 }
 
-function get_header($name = ''){
+function get_header($name = '') {
     global $data;
-    if(empty($name)){
+    if (empty($name)) {
         $name = 'header';
-    }else{
+    } else {
         $name = "header-{$name}";
     }
-    $path = LAYOUTPATH . DIRECTORY_SEPARATOR .$name .'.php';
-    if(file_exists($path)){
-        if(is_array($data)){
-            foreach($data as $key => $a){
+    $path = LAYOUTPATH . DIRECTORY_SEPARATOR . $name . '.php';
+    if (file_exists($path)) {
+        if (is_array($data)) {
+            foreach ($data as $key => $a) {
                 $key = $a;
             }
         }
         require $path;
-    }else{
+    } else {
         echo "Không tìm thấy {$path}";
     }
 }
 
-function get_footer($name = ''){
+function get_footer($name = '') {
     global $data;
-    if(empty($name)){
+    if (empty($name)) {
         $name = 'footer';
-    }else{
+    } else {
         $name = "footer-{$name}";
     }
-    $path = LAYOUTPATH . DIRECTORY_SEPARATOR .$name .'.php';
-    if(file_exists($path)){
-        if(is_array($data)){
-            foreach($data as $key => $a){
+    $path = LAYOUTPATH . DIRECTORY_SEPARATOR . $name . '.php';
+    if (file_exists($path)) {
+        if (is_array($data)) {
+            foreach ($data as $key => $a) {
                 $key = $a;
             }
         }
         require $path;
-    }else{
+    } else {
         echo "Không tìm thấy {$path}";
     }
 }

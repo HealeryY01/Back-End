@@ -3,9 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-24/xss.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-24/db/connect.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-24/index.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/modules/page/views/indexView.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-13/system_basi/pages/course.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/modules/users/controllers/indexController.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/layout/header.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/modules/users/views/indexView.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/modules/home/controllers/indexController.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/layout/footer.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/modules/page/controllers/indexController.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/modules/home/views/indexView.php</file>
         </group>
     </open-files>
 </project-private>

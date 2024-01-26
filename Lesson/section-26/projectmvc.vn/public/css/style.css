@@ -31,14 +31,6 @@ ul#main-menu li a{
     min-height: 600px;
     padding: 20px 0px;
 }
-.post-title{
-    font-weight:bold;
-    font-size: 14px;
-}
-ul.list_post li{
-    padding: 20px 0px;
-    border-bottom: 1px dashed #b5abab;
-}
 #footer{
     color: #fff;
     text-align: center;

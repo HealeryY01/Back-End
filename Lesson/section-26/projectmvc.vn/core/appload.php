@@ -1,5 +1,5 @@
 <?php
-define('APPPATH') OR exit('Không được quyền truy cập phần này');
+defined('APPPATH') OR exit('Không được quyền truy cập phần này');
 
 //Include file config/database
 require CONFIGPATH . DIRECTORY_SEPARATOR. 'database.php';
