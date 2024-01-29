@@ -11,5 +11,5 @@ function indexAction() {
 function addAction() {
 }
 
-function aditAction(){
+function editAction(){
 }
