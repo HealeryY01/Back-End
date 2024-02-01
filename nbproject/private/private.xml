@@ -3,30 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/.htaccess.conf</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/modules/cart/update.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/inc/header.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/product/detail.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/index.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/inc/footer.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/home/main.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/cart/delete_all.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/core/base.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/inc/header-page.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/cart/update.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/post/main.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/modules/product/detail.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/modules/home/main.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/post/detail.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/cart/checkout.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-26/projectmvc.vn/index.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/inc/sidebar.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/inc/header-product.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/modules/cart/update_ajax.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/cart/show.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/cart/add.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-18/shopping_cart/modules/product/main.php</file>
-            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-27/friendly_url/modules/page/detail.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-13/system_basi/lib/template.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/modules/users/models/indexModels.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-16/user_maneger_basic/lib/users.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/modules/users/views/regView.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/libraries/validation.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/config/database.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/config/autoload.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/core/base.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/config/email.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/modules/users/controllers/indexController.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-14/sendmail.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/libraries/email.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/core/appload.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/helper/users.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/helper/url.php</file>
+            <file>file:/D:/Xampp/htdocs/HealeryY/Php-BE/Lesson/section-28/projectmvc.vn/config/config.php</file>
         </group>
     </open-files>
 </project-private>

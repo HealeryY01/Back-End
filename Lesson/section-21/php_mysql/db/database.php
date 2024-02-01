@@ -69,7 +69,6 @@ function db_num_rows($query_string) {
 //}
 
 //function db_update($table, $data, $where) {
-//    global $conn;
 //    $sql = "";
 //    foreach ($data as $field => $value) {
 //        if ($value === NULL) {
